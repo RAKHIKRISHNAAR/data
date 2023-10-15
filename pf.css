@@ -1,21 +1,31 @@
 .row{
-    background-color:rgb(4, 4, 72);
-    color:white;
+   /* background-color:rgb(4, 4, 72);*/
+    color:black;
     font-size: 30px;
-    display:flex;
-    flex-wrap: wrap;}
+   display:flex;
+    flex-wrap: wrap;
+    position:relative;
+    }
     .row1{
-        display:flex;
+       display:flex;
         flex-wrap: wrap;
-        width:100%;
-        border:10px solid ;
+    
+      /*  border:10px solid ;*/
+        /*position:relative;
+*/
     }
     img{
+        display:flex;
+        flex-wrap: wrap;
         padding-left: 10px;
         padding-top: 3px;
         border-radius: 150px;
-
+        
     }
+    
+
+
+    
     h2{
         text-align: left;
     }
@@ -25,4 +35,8 @@
     dt{
         color:rgb(3, 3, 65);
     }
-    
+   #z1{
+    display: flex;
+    flex-wrap: wrap;
+
+   }
